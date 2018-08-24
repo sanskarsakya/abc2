@@ -1,0 +1,23 @@
+{
+  "name": "puzan",
+  "version": "1.0.0",
+  "description": "puzan app",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.4.0",
+    "react-art": "16.4.0",
+    "react-dom": "16.4.0",
+    "react-native-vector-icons": "5.0.0",
+    "react-native-web": "0.8.x",
+    "react-navigation": "2.11.2",
+    "react-scripts": "1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
