@@ -55,9 +55,10 @@ const styles = StyleSheet.create({
     flex: 1
   },
   scrollView: {
-    paddingLeft: 30,
-    paddingBottom: 30,
     paddingTop: 20,
+    paddingBottom: 30,
+    paddingLeft: 30,
+    paddingRight: 30,
     flex: 1
   },
   loginHeader: {

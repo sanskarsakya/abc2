@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { StyleSheet, View, Text, TouchableHighlight } from "react-native";
-import PropTypes from "prop-types";
+import { PropTypes } from "prop-types";
 import Colors from "../../styles/index";
 export default class RoundedButton extends Component {
   render() {
@@ -22,7 +22,7 @@ export default class RoundedButton extends Component {
   }
 }
 
-RoundedButton.prototypes = {
+RoundedButton.propTypes = {
   text: PropTypes.string.isRequired,
   textColor: PropTypes.string,
   background: PropTypes.string,
